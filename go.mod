@@ -1,4 +1,4 @@
-module github.com/bluehelix-chain/hbc-sdk
+module github.com/zxinuoke/hbc-sdk
 
 go 1.16
 
