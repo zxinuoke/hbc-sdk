@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bluehelix-chain/hbc-sdk/utils/base58"
 	"github.com/tendermint/tendermint/crypto"
 	"github.com/tendermint/tendermint/crypto/secp256k1"
+	"github.com/zxinuoke/hbc-sdk/utils/base58"
 	"gopkg.in/yaml.v2"
 )
 

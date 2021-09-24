@@ -4,11 +4,11 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/bluehelix-chain/hbc-sdk/utils"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/tendermint/tendermint/crypto"
 	"github.com/tendermint/tendermint/crypto/multisig"
 	"github.com/tendermint/tendermint/crypto/secp256k1"
+	"github.com/zxinuoke/hbc-sdk/utils"
 )
 
 func CheckHbcPrivkeyAddr(privKey []byte, addrInput string) (bool, error) {

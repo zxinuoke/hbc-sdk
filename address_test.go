@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/bluehelix-chain/hbc-sdk/utils/base58"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/crypto"
 	"github.com/tendermint/tendermint/crypto/secp256k1"
+	"github.com/zxinuoke/hbc-sdk/utils/base58"
 )
 
 func TestHbcAddress(t *testing.T) {

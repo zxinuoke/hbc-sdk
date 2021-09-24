@@ -3,9 +3,9 @@ package tx
 import (
 	"encoding/json"
 
-	"github.com/bluehelix-chain/hbc-sdk/utils"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/tendermint/tendermint/crypto"
+	"github.com/zxinuoke/hbc-sdk/utils"
 )
 
 // StdSignDoc def
